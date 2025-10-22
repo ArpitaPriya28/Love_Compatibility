@@ -31,6 +31,8 @@ A fun web app that calculates love compatibility between two names and shows mag
 
 ---
 
+https://github.com/ArpitaPriya28/Love_Compatibility.git
+
 ##  Folder Structure
 
 /project-folder
