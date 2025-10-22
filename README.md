@@ -73,6 +73,10 @@ A fun web app that calculates love compatibility between two names and shows mag
 
 ---
 
+###  Examples
+
+<img width="1919" height="1009" alt="Screenshot 2" src="https://github.com/user-attachments/assets/5560559d-26e8-4ca3-ab0f-c61d560fdd56" />
+
 ##  Created By
 
 Arpita Priya
