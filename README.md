@@ -24,14 +24,13 @@ A fun web app that calculates love compatibility between two names and shows mag
 
 ##  How to Use
 
-1. Clone/download this project
+1. Clone the repository git clone - https://github.com/ArpitaPriya28/Love_Compatibility.git
 2. Open `index.html` in your browser
 3. Enter two names and click “Check Compatibility ”
 4. Enjoy the result, animation, and sounds!
 
 ---
 
-https://github.com/ArpitaPriya28/Love_Compatibility.git
 
 ##  Folder Structure
 
