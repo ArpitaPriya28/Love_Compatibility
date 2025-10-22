@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(to right, #ff9a9e, #fad0c4); /*
+Sets a smooth gradient background in the page.
+which goes from pink (#ff9a9e) to light pink (#fad0c4) horizontally (left to right) like (\)upper dark and as it moves downwards it becoms light
+*/
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 100px;
+  color: #333;/*changes the text colour of <h1>*/
+}
+
+/*this is for the text box*/
+input {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;/* so that the box is a little curve at the corners*/
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff6f91;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer; /*Changes the cursor to a pointer hand icon when hovering over the button — indicating it's clickable.*/
+}
+
+#result { /*div - block element*/
+  margin-top: 30px;
+  font-size: 24px;
+  color: #880e4f;
+}
+
+
+.heart {
+  position: absolute;
+  top: -50px;
+  font-size: 24px;
+  opacity: 0.9;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {/* @keyframes is a CSS rule used to define animations.
+
+It tells the browser how an element should change its style over time. */
+  0% {
+    transform: translateY(-100px);/* moves the element 100 pixels above its normal position (starts from slightly above the top). */
+    opacity: 0;/* element is invisible at the start. */
+  }
+  100% {
+    transform: translateY(100vh);/* moves the element down the full height of the viewport (100vh = 100% of the screen height). */
+    opacity: 1;/* element becomes fully visible. */
+  }
+}
